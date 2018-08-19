@@ -1,4 +1,7 @@
-# Tic-Tac-Toe App [![Build Status](https://travis-ci.org/dylantyates/tic-tac-toe-app.svg?branch=master)](https://travis-ci.org/dylantyates/tic-tac-toe-app)
+# Tic-Tac-Toe App
+
+[![Build Status](https://travis-ci.org/dylantyates/tic-tac-toe-app.svg?branch=master)](https://travis-ci.org/dylantyates/tic-tac-toe-app)
+[![codecov](https://codecov.io/gh/dylantyates/tic-tac-toe-app/branch/master/graph/badge.svg)](https://codecov.io/gh/dylantyates/tic-tac-toe-app)
 
 ![Tic-Tac-Toe Preview](https://github.com/dylantyates/tic-tac-toe-app/blob/master/preview.png)
 
