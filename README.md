@@ -1,5 +1,7 @@
 # Tic-Tac-Toe App
 
+![Tic-Tac-Toe Preview](https://github.com/dylantyates/tic-tac-toe-app/blob/master/preview.png)
+
 This guide follows the official [React Tutorial](https://reactjs.org/tutorial/tutorial.html) to create a simple tic-tac-toe game.
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
