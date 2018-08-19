@@ -2,8 +2,6 @@
 
 This guide provides a base for testing with [Jest](https://jestjs.io/) and [Enzyme](http://airbnb.io/enzyme/) for the official [React Tutorial](https://reactjs.org/tutorial/tutorial.html) to create a simple tic-tac-toe game.
 
-To create your own custom test come up with a **User Story** and test for it.
-
 ## Initial Setup
 
 ```bash

@@ -341,7 +341,7 @@ ReactDOM.render(
 
 ### Lift Up Game State To Game
 
-There is a lot to this since our game state in `Board` was pretty well featured so I will break it down into sub-sections to understand the state lifting process better.
+There is a lot to this since our game state in **Board** was pretty well featured so I will break it down into sub-sections to understand the state lifting process better.
 
 ##### Initialize state in Game
 
@@ -562,7 +562,7 @@ Below are the additional challenges in order from least to most difficult.
 
 ### Display Location For Moves
 
-Create `getLocation()` function and `locations` object with corresponding rows and columns for each possible `move`
+Create **getLocation()** function and **locations** object with corresponding rows and columns for each possible **move**.
 
 ```js
 function getLocation(move) {
@@ -581,7 +581,7 @@ function getLocation(move) {
 }
 ```
 
-Set `currentLocation` in the `handleClick()` event.
+Set **currentLocation** in the **handleClick()** event.
 
 ```js
 class Game extends React.Component {
@@ -605,7 +605,7 @@ class Game extends React.Component {
 }
 ```
 
-Add current location to `moves` array.
+Add current location to **moves** array.
 
 ```js
 const moves = history.map((step, move) => {
@@ -628,7 +628,7 @@ const moves = history.map((step, move) => {
 
 ### Highlight Current Move
 
-Create your style class for the current move button in `index.css`
+Create your style class for the current move button in **index.css**
 
 ```css
 .button-selected {
@@ -636,7 +636,7 @@ Create your style class for the current move button in `index.css`
 }
 ```
 
-Add `currentMove` that toggles css class for current move.
+Add **currentMove** that toggles css class for current move.
 
 ```js
 const moves = history.map((step, move) => {
@@ -655,7 +655,7 @@ const moves = history.map((step, move) => {
 
 ### Refactor Board With Two Loops
 
-This all happens in your `Board` class. First add `createBoard()` function which loops through rows and columns and creates game board.
+This all happens in your **Board** class. First add thef **createBoard()** function which loops through rows and columns and creates game board.
 
 ```js
 createBoard(row, col) {
@@ -676,7 +676,7 @@ createBoard(row, col) {
 }
 ```
 
-Add `key` to `renderSquare()` function.
+Add **key** to **renderSquare()** function.
 
 ```js
 renderSquare(i) {
@@ -690,7 +690,7 @@ renderSquare(i) {
 }
 ```
 
-Refactor render to use `createBoard()` function.
+Refactor render to use **createBoard()** function.
 
 ```js
 render() {
@@ -712,7 +712,7 @@ Add winning class to `index.css`
 }
 ```
 
-Refactor `Square` className.
+Refactor **Square** className.
 
 ```js
 function Square(props) {
@@ -727,18 +727,7 @@ function Square(props) {
 }
 ```
 
-Refactor `render()` in `Game` class.
-
-```js
-render() {
-  ...
-  // Convert winner constant to an object with winner and winningRow
-  const { winner, winningRow } = calculateWinner(current.squares)
-  ...
-}
-```
-
-Refactor `render()` in `Game` class.
+Refactor **render()** in **Game** class.
 
 ```js
 render() {
@@ -763,7 +752,7 @@ render() {
 }
 ```
 
-Refactor `handleClick()` function in `Game` class.
+Refactor **handleClick()** function in **Game** class.
 
 ```js
 handleClick(i) {
@@ -775,7 +764,7 @@ handleClick(i) {
 }
 ```
 
-Refactor the `calculateWinner()` function to return an object with `winner` and `winningRow`
+Refactor the **calculateWinner()** function to return an object with **winner** and **winningRow**.
 
 ```js
 function calculateWinner(squares) {
@@ -792,7 +781,7 @@ function calculateWinner(squares) {
 }
 ```
 
-Refactor the `renderSquare()` function with your winning class.
+Refactor the **renderSquare()** function with your winning class.
 
 ```js
 class Board extends React.Component {
@@ -819,7 +808,7 @@ class Board extends React.Component {
 
 ### Game Logic For Draws
 
-Add game logic for draws in the `Game` class.
+Add game logic for draws in the **Game** class.
 
 ```js
 let status;
