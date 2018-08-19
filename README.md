@@ -14,7 +14,7 @@ brew install yarn
 
 ## Testing
 
-Be sure to checkout [TESTING](https://github.com/dylantyates/js-guide/tree/master/react/tic-tac-toe-app/TESTING.md) for more information on testing the tic-tac-toe app.
+Be sure to checkout [TESTING](https://github.com/dylantyates/tic-tac-toe-app/blob/master/TESTING.md) for more information on testing the tic-tac-toe app.
 
 ## Overview
 
