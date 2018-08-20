@@ -3,6 +3,8 @@
 [![Build Status](https://travis-ci.org/dylantyates/tic-tac-toe-app.svg?branch=master)](https://travis-ci.org/dylantyates/tic-tac-toe-app)
 [![codecov](https://codecov.io/gh/dylantyates/tic-tac-toe-app/branch/master/graph/badge.svg)](https://codecov.io/gh/dylantyates/tic-tac-toe-app)
 
+[Preview](https://dylantyates.github.io/tic-tac-toe-app)
+
 ![Tic-Tac-Toe Preview](https://github.com/dylantyates/tic-tac-toe-app/blob/master/preview.png)
 
 This guide follows the official [React Tutorial](https://reactjs.org/tutorial/tutorial.html) to create a simple tic-tac-toe game.
