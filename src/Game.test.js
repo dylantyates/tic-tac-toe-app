@@ -2,7 +2,7 @@ import React from 'react';
 import Game from './Game';
 import { shallow, mount } from 'enzyme';
 
-it('renders without crashing', () => {
+it ('renders without crashing', () => {
   shallow(<Game />);
 });
 
